@@ -1,12 +1,39 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/sections/HeroSection";
+import ProblemSection from "@/components/sections/ProblemSection";
+import ESGOnboardingSection from "@/components/sections/ESGOnboardingSection";
+import DashboardSection from "@/components/sections/DashboardSection";
+import HiddenRiskSection from "@/components/sections/HiddenRiskSection";
+import ESGScoringSection from "@/components/sections/ESGScoringSection";
+import PreferenceSection from "@/components/sections/PreferenceSection";
+import ScenarioSection from "@/components/sections/ScenarioSection";
+import NudgesSection from "@/components/sections/NudgesSection";
+import ImpactSection from "@/components/sections/ImpactSection";
+import DiscoverySection from "@/components/sections/DiscoverySection";
+import LegacySection from "@/components/sections/LegacySection";
+import ComplianceSection from "@/components/sections/ComplianceSection";
+import NavigationSection from "@/components/sections/NavigationSection";
+import TechnicalSection from "@/components/sections/TechnicalSection";
+import FooterSection from "@/components/sections/FooterSection";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background overflow-x-hidden">
+      <HeroSection />
+      <ProblemSection />
+      <ESGOnboardingSection />
+      <DashboardSection />
+      <HiddenRiskSection />
+      <ESGScoringSection />
+      <PreferenceSection />
+      <ScenarioSection />
+      <NudgesSection />
+      <ImpactSection />
+      <DiscoverySection />
+      <LegacySection />
+      <ComplianceSection />
+      <NavigationSection />
+      <TechnicalSection />
+      <FooterSection />
     </div>
   );
 };
