@@ -13,43 +13,23 @@ export default {
   		}
   	},
   	extend: {
-  		fontFamily: {
-  			sora: [
-  				'Sora',
-  				'sans-serif'
-  			],
-  			inter: [
-  				'Inter',
-  				'sans-serif'
-  			],
+  	fontFamily: {
   			sans: [
-  				'Work Sans',
-  				'ui-sans-serif',
-  				'system-ui',
-  				'sans-serif',
-  				'Apple Color Emoji',
-  				'Segoe UI Emoji',
-  				'Segoe UI Symbol',
-  				'Noto Color Emoji'
+  				'Lucida Sans',
+  				'Lucida Sans Regular',
+  				'Lucida Grande',
+  				'Lucida Sans Unicode',
+  				'sans-serif'
   			],
   			serif: [
-  				'Lora',
-  				'ui-serif',
-  				'Georgia',
-  				'Cambria',
-  				'Times New Roman',
-  				'Times',
-  				'serif'
+  				'Lucida Sans',
+  				'Lucida Sans Regular',
+  				'Lucida Grande',
+  				'sans-serif'
   			],
   			mono: [
-  				'Inconsolata',
-  				'ui-monospace',
-  				'SFMono-Regular',
-  				'Menlo',
-  				'Monaco',
-  				'Consolas',
-  				'Liberation Mono',
-  				'Courier New',
+  				'Lucida Sans',
+  				'Lucida Sans Regular',
   				'monospace'
   			]
   		},
